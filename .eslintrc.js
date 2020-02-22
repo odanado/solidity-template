@@ -17,5 +17,8 @@ module.exports = {
     sourceType: "module"
   },
   rules: {
+  },
+  globals: {
+    artifacts: true
   }
 }
