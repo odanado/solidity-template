@@ -4,21 +4,33 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "prettier/@typescript-eslint"
   ],
-  plugins: [
-    "@typescript-eslint"
-  ],
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    sourceType: "module"
-  },
+  plugins: [],
+  parser: 'babel-eslint',
   rules: {
   },
   globals: {
     artifacts: true
-  }
+  },
+  overrides: [
+    {
+      files: ["*.ts", "*.tsx"],
+      extends: [
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint"
+      ],
+      plugins: [
+        "@typescript-eslint"
+      ],
+
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        sourceType: "module"
+      },
+      rules: {
+      }
+    }
+  ]
 }
