@@ -23,8 +23,10 @@ jobs:
       - name: yarn install
         run: |
           yarn install --frozen-lockfile
-        env:
-          CI: true
+
+      - name: run build
+        run: |
+          yarn build
 
       - name: run test
         run: |

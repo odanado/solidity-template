@@ -1,7 +1,9 @@
+import { SampleInstance } from "../types/contracts";
+
 const Sample = artifacts.require("Sample");
 
 contract("Sample", () => {
-  let sample: any;
+  let sample: SampleInstance;
   beforeEach(async () => {
     sample = await Sample.deployed();
   });
