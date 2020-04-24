@@ -1,4 +1,4 @@
-import { SampleInstance } from "../types/contracts";
+import { SampleInstance } from "../types/contracts/truffle";
 
 const Sample = artifacts.require("Sample");
 

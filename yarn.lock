@@ -5920,6 +5920,14 @@ typechain-target-truffle@^1.0.2:
   dependencies:
     lodash "^4.17.15"
 
+typechain-target-web3-v1@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/typechain-target-web3-v1/-/typechain-target-web3-v1-1.0.4.tgz#0157359e534737c07fc62529d5d8570a2047a2da"
+  integrity sha512-jQ6eCfY7QorBq6kQDjSy5LMuImZGkp6IXR6FXZp7/ulITIxAfb6Dxh+yvh0NN/zboLnMPvvSJi6tHWCqlwfSDA==
+  dependencies:
+    lodash "^4.17.15"
+    web3 "^1.2.4"
+
 typechain@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/typechain/-/typechain-1.0.5.tgz#797899d9dbce54a83b3aef04ce1727ddf07d2138"
@@ -6353,7 +6361,7 @@ web3-eth-contract@1.2.1:
     web3-eth-abi "1.2.1"
     web3-utils "1.2.1"
 
-web3-eth-contract@1.2.6:
+web3-eth-contract@1.2.6, web3-eth-contract@^1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/web3-eth-contract/-/web3-eth-contract-1.2.6.tgz#39111543960035ed94c597a239cf5aa1da796741"
   integrity sha512-ak4xbHIhWgsbdPCkSN+HnQc1SH4c856y7Ly+S57J/DQVzhFZemK5HvWdpwadJrQTcHET3ZeId1vq3kmW7UYodw==

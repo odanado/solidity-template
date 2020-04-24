@@ -21,13 +21,18 @@
     "ts-node": "^8.6.2",
     "typechain": "^1.0.5",
     "typechain-target-truffle": "^1.0.2",
+    "typechain-target-web3-v1": "^1.0.4",
     "typescript": "^3.7.5"
   },
-  "dependencies": {},
+  "dependencies": {
+    "web3-eth-contract": "^1.2.6"
+  },
   "scripts": {
     "clean": "rm -rf build types/contracts/",
     "build:truffle": "truffle build",
-    "build:typechain": "typechain --target truffle --outDir types/contracts 'build/contracts/*'",
+    "build:typechain": "run-p build:typechain:*",
+    "build:typechain:truffle": "typechain --target truffle --outDir types/contracts/truffle 'build/contracts/*'",
+    "build:typechain:web3-v1": "typechain --target web3-v1 --outDir types/contracts/web3-v1 'build/contracts/*'",
     "build": "run-s build:truffle build:typechain",
     "test:type": "tsc --noEmit",
     "test:truffle": "truffle test",
