@@ -35,6 +35,7 @@
     "build:typechain:web3-v1": "typechain --target web3-v1 --outDir types/contracts/web3-v1 'build/contracts/*'",
     "build": "run-s build:truffle build:typechain",
     "test:type": "tsc --noEmit",
+    "test:lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
     "test:truffle": "truffle test",
     "test": "run-s test:type test:truffle"
   }
