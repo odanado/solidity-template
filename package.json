@@ -22,7 +22,7 @@
     "typechain": "^1.0.5",
     "typechain-target-truffle": "^1.0.2",
     "typechain-target-web3-v1": "^1.0.4",
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.3"
   },
   "dependencies": {
     "web3-eth-contract": "^1.2.6"
