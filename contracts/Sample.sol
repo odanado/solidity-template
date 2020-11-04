@@ -11,4 +11,7 @@ contract Sample {
   function getValue() public view returns (string memory) {
     return value;
   }
+  function getValue(string memory x) public pure returns (string memory) {
+    return x;
+  }
 }
