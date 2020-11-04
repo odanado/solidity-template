@@ -12,7 +12,14 @@ contract("Sample", () => {
     const expected = "42";
     await sample.setValue(expected);
 
-    const actual = await sample.getValue();
+    const actual = await sample.methods["getValue()"]();
+    assert.equal(expected, actual);
+  });
+
+  it("should be get value", async () => {
+    const expected = "28";
+    const actual = await sample.methods["getValue(string)"](expected);
+
     assert.equal(expected, actual);
   });
 });
