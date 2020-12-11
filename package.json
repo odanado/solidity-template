@@ -8,7 +8,7 @@
     "@typechain/truffle-v5": "^4.0.0",
     "@typechain/web3-v1": "^2.0.0",
     "@types/bignumber.js": "^5.0.0",
-    "@types/node": "^14.14.10",
+    "@types/node": "^14.14.12",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
     "@typescript-eslint/parser": "^4.9.1",
     "babel-eslint": "^10.1.0",
