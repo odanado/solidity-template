@@ -6,14 +6,12 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "outDir": "dist",
-    "types": [
-      "truffle-typings"
-    ],
     "skipLibCheck": true
   },
   "include": [
     "./src/**/*.ts",
-    "./test/**/*.ts"
+    "./test/**/*.ts",
+    "./types/**/*.ts",
   ],
   "exclude": [
     "./src/**/*.spec.ts"
