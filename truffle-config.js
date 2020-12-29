@@ -96,4 +96,4 @@ module.exports = {
     },
   },
 };
-require("ts-node/register");
+require("ts-node").register({ files: true });
