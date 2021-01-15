@@ -7082,10 +7082,10 @@ truffle-security@^1.7.3:
     tiny-async-pool "^1.0.4"
     uuid "^3.3.3"
 
-truffle@^5.1.60:
-  version "5.1.60"
-  resolved "https://registry.yarnpkg.com/truffle/-/truffle-5.1.60.tgz#ff7b8b64c3863333024d1c836d90caaa4ac31770"
-  integrity sha512-UPu4QECgK5oJaBqQqwFigGvQUR7ytRGr9Y0y4iEN86V0w8HpEvQ3IDCeDZ6XcRa52CCrYMBF7Vcbzbcme+t61g==
+truffle@^5.1.62:
+  version "5.1.62"
+  resolved "https://registry.yarnpkg.com/truffle/-/truffle-5.1.62.tgz#819b8280615345bf42bbba7967f2dc9d39347869"
+  integrity sha512-TWgZ3xSSb8us4ZkHEHRghJWivfewjEy7yd8nARd7EHvoOi5lcUmKnbsunP+G7u/AO47gRoEqwFdPuGPdXrBM1A==
   dependencies:
     app-module-path "^2.2.0"
     mocha "8.1.2"
