@@ -705,10 +705,10 @@
   resolved "https://registry.yarnpkg.com/@typechain/truffle-v5/-/truffle-v5-4.0.1.tgz#44f08a982da5f23f1e73babf9b2c74442c7b17d2"
   integrity sha512-i8z1gvs45tbAE+cvzivspZOSwJhEVug+ST5SW2RB4XB8hGtvTurpdgZ5XdQSGPQPrOPhDoeUorb+ViEJfmP23Q==
 
-"@typechain/web3-v1@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@typechain/web3-v1/-/web3-v1-2.0.0.tgz#71ce7265181c8cbb03b1f7212256a23b9b809472"
-  integrity sha512-gpl9Tk6Ha38GScuMf7O2BvX7nFvWakSlm4w1LxCZ8BEJgbjarrsBX2YdgrB2jHm2pBZCaBJUZGR5b9qywSJNdw==
+"@typechain/web3-v1@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@typechain/web3-v1/-/web3-v1-2.2.0.tgz#fb4edae1bf4ed797be4102f48d46697be0f88998"
+  integrity sha512-vSJ+qhTXLsgvyx/cRYgHQZEifU7xNJLkWHYw8CSu3TTqankN7mKUwl2pwGNbWkRDY7U9hE0bKs9b0hWuLjB0DA==
 
 "@types/bignumber.js@^5.0.0":
   version "5.0.0"
