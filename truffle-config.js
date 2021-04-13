@@ -35,6 +35,7 @@ function getPrivateChainConfig() {
   const account = web3.eth.accounts.privateKeyToAccount(process.env.PRIVATE_KEY);
   web3.eth.accounts.wallet.add(account);
   
+  console.log("poyopoyo", process.env.NETWORK_ID)
   return {
     provider: () => web3.currentProvider,
     network_id: process.env.NETWORK_ID,
