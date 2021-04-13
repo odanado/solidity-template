@@ -31,7 +31,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Geth Action
-        uses: odanado/geth-action@v0.0.8
+        uses: odanado/geth-action@v0.0.9
         id: geth
 
       - name: yarn install
@@ -41,10 +41,6 @@ jobs:
       - name: run build
         run: |
           yarn build
-        env:
-          RPC_URL: ${{ steps.geth.outputs.rpc_url }}
-          PRIVATE_KEY: ${{ steps.geth.outputs.private_key }}
-
 
       - name: run test
         run: |
@@ -52,3 +48,4 @@ jobs:
         env:
           RPC_URL: ${{ steps.geth.outputs.rpc_url }}
           PRIVATE_KEY: ${{ steps.geth.outputs.private_key }}
+          NETWORK_ID: ${{ steps.geth.outputs.network_id }}
