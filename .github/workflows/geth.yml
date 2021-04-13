@@ -31,7 +31,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Geth Action
-        uses: odanado/geth-action@v0.0.9
+        uses: odanado/geth-action@v0.0.10
         id: geth
 
       - name: yarn install
