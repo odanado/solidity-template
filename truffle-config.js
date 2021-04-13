@@ -30,6 +30,7 @@
 const Web3 = require("web3");
 
 function getPrivateChainConfig() {
+console.log(process.env)
   const web3 = new Web3(process.env.RPC_URL);
 
   const account = web3.eth.accounts.privateKeyToAccount(process.env.PRIVATE_KEY)
