@@ -37,6 +37,7 @@ function getPrivateChainConfig() {
   
   return {
     provider: () => web3.currentProvider,
+    network_id: 8524,
     production: true,
   };
 }
