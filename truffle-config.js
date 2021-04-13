@@ -29,16 +29,17 @@
  */
 const Web3 = require("web3");
 
+console.log("poyopoyo", process.env)
 function getPrivateChainConfig() {
   const web3 = new Web3(process.env.RPC_URL);
 
   const account = web3.eth.accounts.privateKeyToAccount(process.env.PRIVATE_KEY);
-  web3.eth.accounts.wallet.add(account);
+  // web3.eth.accounts.wallet.add(account);
   
   console.log("poyopoyo", process.env.NETWORK_ID)
   return {
     provider: () => web3.currentProvider,
-    network_id: process.env.NETWORK_ID,
+    network_id: "10412",
     production: true,
   };
 }
