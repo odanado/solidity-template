@@ -3,7 +3,7 @@ name: test using geth
 on: [push]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
