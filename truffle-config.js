@@ -37,7 +37,7 @@ function getPrivateChainConfig() {
       const account = web3.eth.accounts.privateKeyToAccount(
         process.env.PRIVATE_KEY
       );
-      // web3.eth.accounts.wallet.add(account);
+      web3.eth.accounts.wallet.add(account);
 
       return web3.currentProvider;
     },
