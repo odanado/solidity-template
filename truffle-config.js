@@ -29,17 +29,19 @@
  */
 const Web3 = require("web3");
 
-console.log("poyopoyo", process.env)
 function getPrivateChainConfig() {
-  const web3 = new Web3(process.env.RPC_URL);
-
-  const account = web3.eth.accounts.privateKeyToAccount(process.env.PRIVATE_KEY);
-  // web3.eth.accounts.wallet.add(account);
-  
-  console.log("poyopoyo", process.env.NETWORK_ID)
   return {
-    provider: () => web3.currentProvider,
-    network_id: "10412",
+    provider: () => {
+      const web3 = new Web3(process.env.RPC_URL);
+
+      const account = web3.eth.accounts.privateKeyToAccount(
+        process.env.PRIVATE_KEY
+      );
+      web3.eth.accounts.wallet.add(account);
+
+      return web3.currentProvider;
+    },
+    network_id: "*",
     production: true,
   };
 }
@@ -94,7 +96,7 @@ module.exports = {
     // network_id: 2111,   // This network is yours, in the cloud.
     // production: true    // Treats this network as if it was a public net. (default: false)
     // }
-    private: () => getPrivateChainConfig(),
+    private: getPrivateChainConfig(),
   },
 
   // Set default mocha options here, use special reporters etc.
