@@ -24,6 +24,28 @@
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
+/**
+ * @type {typeof import("web3").default }
+ */
+const Web3 = require("web3");
+
+function getPrivateChainConfig() {
+  return {
+    provider: () => {
+      const web3 = new Web3(process.env.RPC_URL);
+
+      const account = web3.eth.accounts.privateKeyToAccount(
+        process.env.PRIVATE_KEY
+      );
+      web3.eth.accounts.wallet.add(account);
+
+      return web3.currentProvider;
+    },
+    network_id: "*",
+    production: true,
+  };
+}
+
 module.exports = {
   plugins: ["truffle-security"],
 
@@ -74,6 +96,7 @@ module.exports = {
     // network_id: 2111,   // This network is yours, in the cloud.
     // production: true    // Treats this network as if it was a public net. (default: false)
     // }
+    private: getPrivateChainConfig(),
   },
 
   // Set default mocha options here, use special reporters etc.
