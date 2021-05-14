@@ -9,7 +9,7 @@
     "@typechain/truffle-v5": "^4.0.1",
     "@typechain/web3-v1": "^2.2.0",
     "@types/bignumber.js": "^5.0.0",
-    "@types/chai": "^4.2.17",
+    "@types/chai": "^4.2.18",
     "@types/mocha": "^8.2.2",
     "@types/node": "^15.0.1",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
