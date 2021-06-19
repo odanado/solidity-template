@@ -1997,10 +1997,10 @@
     lodash.merge "^4.6.2"
     source-map-support "^0.5.16"
 
-"@truffle/blockchain-utils@^0.0.30":
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/@truffle/blockchain-utils/-/blockchain-utils-0.0.30.tgz#1fafbd8e8694d79280177b5eff167b0690838855"
-  integrity sha512-3hkHSHxVavoALcxpBqD4YwHuCmkBrvjq6PAGw93i6WCB+pnejBD5sFjVCiZZKCogh4kGObxxcwu53+3dyT/6IQ==
+"@truffle/blockchain-utils@^0.0.31":
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/@truffle/blockchain-utils/-/blockchain-utils-0.0.31.tgz#0503d9fb2ce3e05c167c27294927f2f88d70a24d"
+  integrity sha512-BFo/nyxwhoHqPrqBQA1EAmSxeNnspGLiOCMa9pAL7WYSjyNBlrHaqCMO/F2O87G+NUK/u06E70DiSP2BFP0ZZw==
 
 "@truffle/code-utils@^1.2.26":
   version "1.2.26"
@@ -2026,10 +2026,10 @@
     utf8 "^3.0.0"
     web3-utils "1.3.5"
 
-"@truffle/codec@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@truffle/codec/-/codec-0.11.0.tgz#f349552f047e186714ec6269720bb9cd79f42422"
-  integrity sha512-iWrd+DhYC4nHAfFzfuuiRK86ebkM4IXH4DFW9owVtWR0esexE96tjFAfwEI/mGaJ+ml430P7ybpuDYmVPVKO9w==
+"@truffle/codec@^0.11.1":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@truffle/codec/-/codec-0.11.1.tgz#fbe54d7635bc896b3f746b87e15b8125242bc820"
+  integrity sha512-7Z+BStlCKws+mdpQUb3XGCYCkv80QUtmaLVTbl7/Abzimr63lsCTC/37GLWXeRJ1Vam9JYiZEmzaXUHCqJWsTg==
   dependencies:
     big.js "^5.2.2"
     bn.js "^5.1.3"
@@ -2122,17 +2122,17 @@
     debug "^4.1.0"
     glob "^7.1.2"
 
-"@truffle/contract@^4.0.37", "@truffle/contract@^4.1.13", "@truffle/contract@^4.3.20":
-  version "4.3.20"
-  resolved "https://registry.yarnpkg.com/@truffle/contract/-/contract-4.3.20.tgz#5f5fb8bbd3b224eeeb201e1544b75dba0573e237"
-  integrity sha512-kX3l3nRBGqHPfIkcmdVQDis3T8sR2Rt5H/mFs4A6GRxRCw5oj92J7YFkM5J8BY698GsmD8qAGUKFdUwHLcOPGA==
+"@truffle/contract@^4.0.37", "@truffle/contract@^4.1.13", "@truffle/contract@^4.3.21":
+  version "4.3.21"
+  resolved "https://registry.yarnpkg.com/@truffle/contract/-/contract-4.3.21.tgz#a90a363564ea63ff3a42550cb0b97ffdd4972880"
+  integrity sha512-J4nYQVoOL29G7Rg2rmbHbsyQUx/Oj41HBHQOafjltnxppYuFk8OPW0EBm1o7gOAkfgFy4oJPhOVFucZ6JqY+GQ==
   dependencies:
     "@ensdomains/ensjs" "^2.0.1"
-    "@truffle/blockchain-utils" "^0.0.30"
+    "@truffle/blockchain-utils" "^0.0.31"
     "@truffle/contract-schema" "^3.4.1"
-    "@truffle/debug-utils" "^5.1.0"
+    "@truffle/debug-utils" "^5.1.1"
     "@truffle/error" "^0.0.14"
-    "@truffle/interface-adapter" "^0.5.0"
+    "@truffle/interface-adapter" "^0.5.1"
     bignumber.js "^7.2.1"
     ethers "^4.0.32"
     web3 "1.3.6"
@@ -2166,18 +2166,18 @@
     pouchdb-find "^7.0.0"
     web3-utils "1.3.5"
 
-"@truffle/debug-utils@^5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@truffle/debug-utils/-/debug-utils-5.1.0.tgz#a472fbf9d42c5558b99caf85d47e3b635f8e74b7"
-  integrity sha512-TbGsML+jmFEPD9gx8nCueRe2b3Zz6pOATH9QYeEnyUIklySa7kRPw03ifecDyXl1/XCMDb+7+PhYoF0zeMQ4gA==
+"@truffle/debug-utils@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@truffle/debug-utils/-/debug-utils-5.1.1.tgz#7dd5960a4042bad0588074ebb95b73a44fe1f859"
+  integrity sha512-vp/rutosfUV0kdHPfXO+OdzmfmSq/phgXhwjCXn53ePivCemd2WCP4YNo8wO9erhgnYPy5z+tU4tLtIEx9YU0Q==
   dependencies:
-    "@truffle/codec" "^0.11.0"
+    "@truffle/codec" "^0.11.1"
     "@trufflesuite/chromafi" "^2.2.2"
     bn.js "^5.1.3"
     chalk "^2.4.2"
     debug "^4.3.1"
     highlight.js "^10.4.0"
-    highlightjs-solidity "^1.1.0"
+    highlightjs-solidity "^1.1.1"
 
 "@truffle/debugger@^8.0.23":
   version "8.0.23"
@@ -2269,10 +2269,10 @@
     ethers "^4.0.32"
     web3 "1.3.5"
 
-"@truffle/interface-adapter@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@truffle/interface-adapter/-/interface-adapter-0.5.0.tgz#00c9e16fe0edafbfbf4b331fb4db178c9148c8fc"
-  integrity sha512-0MRt9orgQqo0knyKDy0fGRqnI+alkuK0BUAvHB1/VUJgCKyWBNAUUZO5gPjuj75qCjV4Rw+W6SKDQpn2xOWsXw==
+"@truffle/interface-adapter@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@truffle/interface-adapter/-/interface-adapter-0.5.1.tgz#14c16e59dab5babc3860e9ccaeb350ffa76a8cba"
+  integrity sha512-Uvd7em/9DKb0PAMSklvlvbfHNNm9CiXKxXJT5VUmV9SlAe+C/vbUIiuIv8lStdX1PdF4KkO/K5rBJDvmDmXOyw==
   dependencies:
     bn.js "^5.1.3"
     ethers "^4.0.32"
@@ -7892,7 +7892,7 @@ highlight.js@^10.4.0, highlight.js@^10.4.1:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.5.0.tgz#3f09fede6a865757378f2d9ebdcbc15ba268f98f"
   integrity sha512-xTmvd9HiIHR6L53TMC7TKolEj65zG1XU+Onr8oi86mYa+nLcIbxTTWkpW7CsEwv/vK7u1zb8alZIMLDqqN6KTw==
 
-highlightjs-solidity@^1.1.0:
+highlightjs-solidity@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/highlightjs-solidity/-/highlightjs-solidity-1.1.1.tgz#ed0f246d0f8cba647291baff68fb131252067424"
   integrity sha512-NNcuj6GC0OP8qIrXVaqUA33d/nQoGvwRPS3FR2juIT+I1LAcNkebLbEp1AxzH0TiQ9InPxG62P/FnON8Ns15sQ==
