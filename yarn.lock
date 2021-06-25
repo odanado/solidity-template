@@ -2009,23 +2009,6 @@
   dependencies:
     cbor "^5.1.0"
 
-"@truffle/codec@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@truffle/codec/-/codec-0.11.0.tgz#f349552f047e186714ec6269720bb9cd79f42422"
-  integrity sha512-iWrd+DhYC4nHAfFzfuuiRK86ebkM4IXH4DFW9owVtWR0esexE96tjFAfwEI/mGaJ+ml430P7ybpuDYmVPVKO9w==
-  dependencies:
-    big.js "^5.2.2"
-    bn.js "^5.1.3"
-    cbor "^5.1.0"
-    debug "^4.3.1"
-    lodash.clonedeep "^4.5.0"
-    lodash.escaperegexp "^4.1.2"
-    lodash.partition "^4.6.0"
-    lodash.sum "^4.0.2"
-    semver "^7.3.4"
-    utf8 "^3.0.0"
-    web3-utils "1.3.6"
-
 "@truffle/codec@^0.11.1":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@truffle/codec/-/codec-0.11.1.tgz#fbe54d7635bc896b3f746b87e15b8125242bc820"
@@ -2263,15 +2246,6 @@
     bn.js "^5.1.3"
     ethers "^4.0.32"
     web3 "1.3.5"
-
-"@truffle/interface-adapter@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@truffle/interface-adapter/-/interface-adapter-0.5.1.tgz#14c16e59dab5babc3860e9ccaeb350ffa76a8cba"
-  integrity sha512-Uvd7em/9DKb0PAMSklvlvbfHNNm9CiXKxXJT5VUmV9SlAe+C/vbUIiuIv8lStdX1PdF4KkO/K5rBJDvmDmXOyw==
-  dependencies:
-    bn.js "^5.1.3"
-    ethers "^4.0.32"
-    web3 "1.3.6"
 
 "@truffle/interface-adapter@^0.5.1":
   version "0.5.1"
@@ -11818,10 +11792,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.1.2, prettier@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.0.tgz#b6a5bf1284026ae640f17f7ff5658a7567fc0d18"
-  integrity sha512-kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==
+prettier@^2.1.2, prettier@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.1.tgz#76903c3f8c4449bc9ac597acefa24dc5ad4cbea6"
+  integrity sha512-p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
