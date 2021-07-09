@@ -2042,6 +2042,23 @@
     utf8 "^3.0.0"
     web3-utils "1.3.6"
 
+"@truffle/codec@^0.11.3":
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/@truffle/codec/-/codec-0.11.3.tgz#370d52f14dd7f9da39ba6f2e762e5213c1a853c2"
+  integrity sha512-LBunwP2ZQ0CygcbuLGsQS8Zm4+2kpVKBkvA/DOiCI4IaNxMie3LMFCBFEVrHUey2a07J4wn7WivrRY3dUdS9zQ==
+  dependencies:
+    big.js "^5.2.2"
+    bn.js "^5.1.3"
+    cbor "^5.1.0"
+    debug "^4.3.1"
+    lodash.clonedeep "^4.5.0"
+    lodash.escaperegexp "^4.1.2"
+    lodash.partition "^4.6.0"
+    lodash.sum "^4.0.2"
+    semver "^7.3.4"
+    utf8 "^3.0.0"
+    web3-utils "1.4.0"
+
 "@truffle/compile-solidity@^4.2.25":
   version "4.2.25"
   resolved "https://registry.yarnpkg.com/@truffle/compile-solidity/-/compile-solidity-4.2.25.tgz#c13fb6e1086df1f38498facfa6d2807adf9752fb"
@@ -2121,24 +2138,24 @@
     debug "^4.1.0"
     glob "^7.1.2"
 
-"@truffle/contract@^4.0.37", "@truffle/contract@^4.1.13", "@truffle/contract@^4.3.21":
-  version "4.3.21"
-  resolved "https://registry.yarnpkg.com/@truffle/contract/-/contract-4.3.21.tgz#a90a363564ea63ff3a42550cb0b97ffdd4972880"
-  integrity sha512-J4nYQVoOL29G7Rg2rmbHbsyQUx/Oj41HBHQOafjltnxppYuFk8OPW0EBm1o7gOAkfgFy4oJPhOVFucZ6JqY+GQ==
+"@truffle/contract@^4.0.37", "@truffle/contract@^4.1.13", "@truffle/contract@^4.3.23":
+  version "4.3.23"
+  resolved "https://registry.yarnpkg.com/@truffle/contract/-/contract-4.3.23.tgz#0e7ed5f59cf2c733a01f67f699bcb362d3f10e0c"
+  integrity sha512-YqoFmy6bFMcFnbC1OXNBF1MrhNGYf1JEvY65EsbNe3cjkgbFfk0wVwuDkSYqXBIyWAOQBkPL+GTq4ouvnjVlnw==
   dependencies:
     "@ensdomains/ensjs" "^2.0.1"
     "@truffle/blockchain-utils" "^0.0.31"
     "@truffle/contract-schema" "^3.4.1"
-    "@truffle/debug-utils" "^5.1.1"
+    "@truffle/debug-utils" "^5.1.3"
     "@truffle/error" "^0.0.14"
-    "@truffle/interface-adapter" "^0.5.1"
+    "@truffle/interface-adapter" "^0.5.2"
     bignumber.js "^7.2.1"
     ethers "^4.0.32"
-    web3 "1.3.6"
-    web3-core-helpers "1.3.6"
-    web3-core-promievent "1.3.6"
-    web3-eth-abi "1.3.6"
-    web3-utils "1.3.6"
+    web3 "1.4.0"
+    web3-core-helpers "1.4.0"
+    web3-core-promievent "1.4.0"
+    web3-eth-abi "1.4.0"
+    web3-utils "1.4.0"
 
 "@truffle/db@^0.5.17":
   version "0.5.17"
@@ -2165,12 +2182,12 @@
     pouchdb-find "^7.0.0"
     web3-utils "1.3.6"
 
-"@truffle/debug-utils@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@truffle/debug-utils/-/debug-utils-5.1.1.tgz#7dd5960a4042bad0588074ebb95b73a44fe1f859"
-  integrity sha512-vp/rutosfUV0kdHPfXO+OdzmfmSq/phgXhwjCXn53ePivCemd2WCP4YNo8wO9erhgnYPy5z+tU4tLtIEx9YU0Q==
+"@truffle/debug-utils@^5.1.3":
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/@truffle/debug-utils/-/debug-utils-5.1.3.tgz#de3f21284cfd7cb4f1268240854c11392228fe26"
+  integrity sha512-++IPNmxBH/uwaVqZ+hokEDavN9r0TayU2o0/geHoBCwcC0eW5xr9zbciFxsgKQCCuBESi23eOflNuQUK1Awa5w==
   dependencies:
-    "@truffle/codec" "^0.11.1"
+    "@truffle/codec" "^0.11.3"
     "@trufflesuite/chromafi" "^2.2.2"
     bn.js "^5.1.3"
     chalk "^2.4.2"
@@ -2263,14 +2280,14 @@
     ethers "^4.0.32"
     web3 "1.3.5"
 
-"@truffle/interface-adapter@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@truffle/interface-adapter/-/interface-adapter-0.5.1.tgz#14c16e59dab5babc3860e9ccaeb350ffa76a8cba"
-  integrity sha512-Uvd7em/9DKb0PAMSklvlvbfHNNm9CiXKxXJT5VUmV9SlAe+C/vbUIiuIv8lStdX1PdF4KkO/K5rBJDvmDmXOyw==
+"@truffle/interface-adapter@^0.5.1", "@truffle/interface-adapter@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@truffle/interface-adapter/-/interface-adapter-0.5.2.tgz#0140fac0b740ad2809b6fe28d856d0f820524658"
+  integrity sha512-wZert/wvHMg70SWWJODtD+YXATP56xL//Gw5egMrDrE8cfXMmlYmacroLFWSzh1JHlDEh+dev35kUp9ORx0now==
   dependencies:
     bn.js "^5.1.3"
     ethers "^4.0.32"
-    web3 "1.3.6"
+    web3 "1.4.0"
 
 "@truffle/preserve-fs@^0.2.3":
   version "0.2.3"
@@ -15617,7 +15634,7 @@ web3@1.3.6:
     web3-shh "1.3.6"
     web3-utils "1.3.6"
 
-web3@^1.2.4, web3@^1.4.0:
+web3@1.4.0, web3@^1.2.4, web3@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/web3/-/web3-1.4.0.tgz#717c01723226daebab9274be5cb56644de860688"
   integrity sha512-faT3pIX+1tuo+wqmUFQPe10MUGaB1UvRYxw9dmVJFLxaRAIfXErSilOf3jFhSwKbbPNkwG0bTiudCLN9JgeS7A==
